@@ -1,0 +1,116 @@
+.parent
+{
+  display:flex;
+  flex-direction: row;
+  border: 3px solid #000;
+  border-radius: 5%;
+  background-color:#2D42D4;
+}
+.childone
+{
+  border:3px solid #EA8ECE;
+  padding: 3%;
+  margin: 2%;
+  width: 30%;
+  border-radius: 2%;
+  text-align: center;
+  font-size: 25px;
+  background-color: #76C0E0;
+}
+img{
+  width: 40%;
+  border:5px solid #ED673F;
+  border-radius: 50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 6px #B7A7A2;
+}
+.childtwo{
+  border: 3px solid #EA8ECE;
+  padding: 3%;
+  margin: 2%;
+  width: 70%;
+  border-radius: 2%;
+  background-color: #76C0E0;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+  .parent
+  {
+    display:flex;
+    flex-direction: column;
+    border: 3px solid #000;
+    border-radius: 5%;
+    background-color: #56C198;
+  }
+  .childone
+  {
+    border:3px solid #D15FB0;
+    padding: 3%;
+    margin: 2%;
+    width: 90%;
+    border-radius: 2%;
+    text-align: center;
+    font-size: 25px;
+    background-color: orange;
+  }
+  img{
+    width: 40%;
+    border:5px solid orange;
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 6px grey;
+  }
+  .childtwo{
+    border: 3px solid pink;
+    padding: 3%;
+    margin: 2%;
+    width: 90%;
+    border-radius: 2%;
+    background-color: orange;
+  }
+
+}
+a{
+  word-wrap: break-word;
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+  .parent
+  {
+    display:flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 5%;
+    background-color: blue;
+  }
+  .childone
+  {
+    border:3px solid grey;
+    padding: 3%;
+    margin: 2%;
+    width: 90%;
+    border-radius: 2%;
+    text-align: left;
+    font-size: 25px;
+    background-color: pink;
+  }
+  img{
+    width: 40%;
+    border:5px solid orange;
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 6px grey;
+  }
+  .childtwo{
+    border: 3px solid grey;
+    padding: 3%;
+    margin: 2%;
+    width: 90%;
+    border-radius: 2%;
+    background-color: pink;
+  }
+}
