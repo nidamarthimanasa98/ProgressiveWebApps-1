@@ -41,7 +41,7 @@ img{
     flex-direction: column;
     border: 3px solid #000;
     border-radius: 5%;
-    background-color: #56C198;
+    background-color: #5FBAEE;
   }
   .childone
   {
@@ -52,7 +52,7 @@ img{
     border-radius: 2%;
     text-align: center;
     font-size: 25px;
-    background-color: orange;
+    background-color: #5FEE8D;
   }
   img{
     width: 40%;
@@ -64,12 +64,12 @@ img{
     box-shadow: 5px 5px 6px grey;
   }
   .childtwo{
-    border: 3px solid pink;
+    border: 3px solid #D15FB0;
     padding: 3%;
     margin: 2%;
     width: 90%;
     border-radius: 2%;
-    background-color: orange;
+    background-color: #5FEE8D;
   }
 
 }
