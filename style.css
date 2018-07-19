@@ -76,6 +76,12 @@ img{
 a{
   word-wrap: break-word;
 }
+table{
+  width:90%;
+}
+td{
+  padding:2%;
+}
 @media only screen and (min-width:481px) and (max-width:768px) {
   .parent
   {
